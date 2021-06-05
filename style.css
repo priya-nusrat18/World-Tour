@@ -1,0 +1,12 @@
+.country {
+    width: 300px;
+    border: 1px solid skyblue;
+    padding: 10px;
+    text-align:center
+}
+
+#single-div {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 12px;
+}
